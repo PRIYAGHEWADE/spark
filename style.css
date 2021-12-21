@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+@media (min-width: 992px){
+    .navbar li {
+        margin-left : 1em;
+        margin-right : 1em;
+    }
+}
+
+
+
+body{
+   background: -webkit-linear-gradient(left, rgb(126, 221, 221), rgb(126, 221, 221));
+   font-weight: 300;
+   display: flex;
+   flex-direction: column;
+   height: 100vh; 
+   
+}
+.logo1 i{
+   font-size: 50px;
+   margin-left: 40px;
+}
+a.logo{
+   color: rgb(100, 245, 255);
+   font-size: 20px;
+   font-weight:bold;
+   padding: 60 50px;
+   margin-top: 5px;
+   margin-left: 50px;
+   line-height:  50px;
+}
+a.navbar-brand{
+ font-size: 30px;
+ font-weight: bold;
+ color: aqua;
+ text-decoration: aqua;
+ padding: 0 10px;
+ line-height: 50px;
+}
+div.collapse{
+   margin-right: 30px;
+   padding: 2px;
+   font-weight: bold;
+   font-size: 18px;
+   
+}
+#videolayout{
+   min-width: 100%;
+   min-height: 100%;
+   
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   object-fit: cover ;
+}
+.overlay{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left:0;
+   background-color: rgba(0, 0, 0, 0.329);
+}
+.screen .hometext{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left:0;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align:center;
+   color: #fff;
+
+}
+.hometext h1{
+   font-size: 5em;
+}
+
+.homepage button{
+   width: 250px;
+   height: 70px;
+   font-size: 1.4em;
+   background-color: transparent;
+   color: rgb(184, 236, 243);
+   align-items: center;
+   border-color: #fff;
+   margin-top: 350px;
+  
+   position: absolute;
+   margin-top: 470px;
+   margin-left: 620px;
+
+}
+
+
+.homepage button:hover{
+   background-color: rgb(29, 92, 92);
+   color: #fff;
+
+
+}
+.About p{
+  text-align: center;
+   
+
+}
+.container{
+   width: 100vw;
+   
+   background-color: rgb(126, 221, 221)
+}
+.container .row{
+  
+   background-color: rgb(126, 221, 221)
+  
+}
+.card{
+   
+   margin-top: 50vw;
+   margin: 25px;
+   padding: 20px;
+   
+   color: rgb(45, 115, 119);
+}
+h3.logo {
+   font-size: 15em;
+   color: rgb(100, 245, 255);
+   font-size: 20px;
+   font-weight:bold;
+   padding: 60 50px;
+   margin-top: 5px;
+   margin-left: 50px;
+   line-height:  50px;
+   
+}
+   
+.product-1{
+   height: 20rem;
+   font-size: 4vh;
+
+ 
+  
+}
+.logo i{
+   font-size: 90px;
+   padding-bottom: 10px;
+   margin-bottom: 20px;
+}
+button{
+   width: 250px;
+   height: 60px;
+   border-radius: 5px;
+   font-size: 1.1em;
+   background-color: rgb(194, 239, 250);
+   color: rgb(74, 181, 196);
+   align-items: center;
+   border-color: rgb(5, 5, 5);
+   margin-top: 50px;
+   
+ 
+}
+.info button:hover{
+   background-color: rgb(29, 92, 92);
+   color: #fff;
+}
+.text1 h6{
+   padding-top:21px ;
+}
+
+.row{
+   padding-top: 750px;
+   padding-right: 60px;
+}
+.footer{
+   width: 100%;
+   
+   height: 6rem;
+   background-color: rgb(20, 16, 16);
+  
+
+  
+}
+.footer p{
+   padding-top: 10px;
+ color: rgb(164, 234, 252);
+ font-size: 1.6rem;
+ text-transform: capitalize;
+ text-align: center;
+ 
+
+}
+
+ 
+@media screen and (max-width: 520px) {
+   *{
+     letter-spacing:1px;
+   }
+   .container{
+     margin-left: 20px;
+     margin-right: 20px;
+     margin-bottom: 40px;
+   }
+   .screen-body {
+     flex-direction: column;
+   }
+ 
+   .screen-body-item.left {
+     margin-bottom: 50px;
+   }
+   .app-form-button{
+     margin-top:5px;
+   }
+ }
+ 
+ @media screen and (max-width: 600px) {
+   .screen-body {
+     padding: 40px;
+   }
+ 
+   .screen-body-item {
+     padding: 0;
+   }
+ }
+ @media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}
